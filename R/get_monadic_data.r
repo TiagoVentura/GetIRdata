@@ -5,14 +5,13 @@
 #' data in IR, such as PolityIV, Cinc, COW, UCDP , TRADE.
 #'
 #' @param data a character with one argument: monadic.
-#' @param adding
 #' @usage get_monadic_data(data="monadic")
 #' @return returns a data.frame automatically saved in the global enviroment.
 #' @examples
 #' get_monadic_data("monadic")
 #' @export
 
-get_merged_data <- function(data){
+get_monadic_data <- function(data){
   if(data=="Monadic"){
     #Pull data frame from COW
     #This forms the skeleton of the data fram
