@@ -2,7 +2,7 @@
 #'
 #' This function saves in your globalenvironment painel monadyc data using country-year as
 #' units of analysis. This merged dataset is generating from a joining some sommonly used
-#' data in IR, such as PolityIV, Cinc, COW, UCDP, TRADE.
+#' data in IR, such as PolityIV, Cinc, COW, UCDP , TRADE.
 #'
 #' @param data a character with one argument: monadic.
 #' @param adding

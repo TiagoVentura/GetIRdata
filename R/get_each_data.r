@@ -3,7 +3,7 @@
 #' This function saves datasets on IR in your globalenvironment in a easy way.
 #'
 #' @param data The name of the data one want to download (character). For this function, this paramater
-#' assumes the following values: PolityIV, COW, CINC, MID, UCDP, Trade, outros.
+#' assumes the following values: PolityIV, COW, CINC, MID, UCDP, Trade, outros .
 #' @usage get_each_data(data="name of the data")
 #' @return returns a data.frame automatically saved in the .global enviroment.
 #' @examples

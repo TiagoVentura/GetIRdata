@@ -5,7 +5,7 @@
 #' data in IR, such as PolityIV, Cinc, COW, UCDP, TRADE.
 #'
 #' @param data a character with two argument: dyadic_dir and dyadic_und.
-#' @param  dyadic_dir returns a direct dyadic data
+#' @param  dyadic_dir returns a direct dyadic  data
 #' @param dyadic_und returns a undirect dyadic data
 #' @usage get_dyadic_data(data="dyadic_dir")
 #' @return returns a data.frame automatically saved in the global enviroment.
