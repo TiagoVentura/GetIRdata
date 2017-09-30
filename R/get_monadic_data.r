@@ -1,10 +1,11 @@
 #' get_monadic_data
 #'
-#' This function saves in your globalenvironment painel monadyc data using country-year as
-#' units of analysis. This merged dataset is generating from a joining some sommonly used
-#' data in IR, such as PolityIV, Cinc, COW, UCDP , TRADE.
+#' \code{get_each_data} saves in your globalenvironment painel monadyc data using country-year as
+#' units of analysis. This merged dataset is generating from a joining some fairly  used
+#' data in IR, such as PolityIV, Cinc, COW, UCDP onset and Trade flow. See the options for
+#' \code{get_each_data} to understand more about these datasets.
 #'
-#' @param data a character with one argument: monadic.
+#' @param \code{data} a character with one argument: \code{Monadic}.
 #' @usage get_monadic_data(data="monadic")
 #' @return returns a data.frame automatically saved in the global enviroment.
 #' @examples

@@ -1,9 +1,17 @@
 #' get_each_data
 #'
-#' This function saves datasets on IR in your globalenvironment in a easy way.
+#' \code{get_each_data} downloads a single IR data in your globalenvironment.
 #'
-#' @param data The name of the data one want to download (character). For this function, this paramater
-#' assumes the following values: PolityIV, COW, CINC, MID, UCDP, Trade.
+#' @param \code{data} The name of the data one want to download (character). For this function, this paramater
+#' assumes the following values.
+#' \itemize{
+#' \item \code{PolityIV}  Returns the Polity IV dataset
+#' \item \code{COW}  Returns the Country-Code system from the Correlates of War Project
+#' \item \code{CINC} Returns the National Material Capabilities from the Correlates
+#' of War Project
+#' \item \code{UCDP} Returns the UCDP data on Conflict Onset
+#' \item \code{Trade} Returns the dataset onf trade flow from Professor Kristen Gledistch
+#' \item \code{MID} Returns the Dyadic Militarized Interstate Disputes Dataset from Professor Zeev Maoz}
 #' @details PolityIV: Returns the Polity Data.
 #' @usage get_each_data(data="name of the data")
 #' @return returns a data.frame automatically saved in the .global enviroment.
@@ -41,5 +49,4 @@ get_each_data <- function(data){
     warning("Add the name of the dataset you are calling")
   }
 }
-
 

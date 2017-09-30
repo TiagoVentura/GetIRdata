@@ -1,18 +1,17 @@
 #' get_dyadic_data
 #'
-#' This function saves in your globalenvironment painel dyadic data using country-year as
-#' units of analysis. This merged dataset is generating from a joining some commonly used
-#' data in IR, such as PolityIV, Cinc, COW, UCDP, TRADE.
-#'
-#' @param data a character with two argument: dyadic_dir and dyadic_und.
-#' @param  dyadic_dir returns a direct dyadic  data
-#' @param dyadic_und returns a undirect dyadic data
+#' \code{get_dyadic_data} Returns a dyadic skeleton formed by painel
+#' country-year dataset from 1816 to 2016. It also merges this skeleton with
+#' the data from MID, Polity and CINC, using the COW code as the country ID.
+#' @param \code{data} a character with two argument: dyadic_dir and dyadic_indir.
+#' \itemize{
+#' \item \code{dydic_dir} Returns a direct dyadic data.
+#' \item \code{dyadic_indir} Returns a indirect dyadic data.
 #' @usage get_dyadic_data(data="dyadic_dir")
 #' @return returns a data.frame automatically saved in the global enviroment.
 #' @examples
 #' get_monadic_data("dyadic_dir")
 #' @export
-
 
 get_dyadic_data <- function(data){
   if(data=="dyadic_dir"){
