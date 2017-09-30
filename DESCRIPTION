@@ -1,0 +1,13 @@
+Package: GetIRdata
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Tiago", "Ventura", email = "venturat@umd.edu", role = c("aut", "cre"))
+Description: Extract to R global environment datasets commonly used in IR
+Depends: R (>= 3.3.2), 
+Imports:
+    dplyr, 
+    magrittr, 
+    tidyr
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 6.0.1
