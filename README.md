@@ -7,11 +7,25 @@ GetIRdata creates three functions with the goal of making the download and the m
 
 GetIRdata has three function:
 
--`get_each_data`: Returns a basic IR dataset saved in one's global environment. The avaliable datasets now for download are PolityIV("PolityIV"), the National Material Capabilities from the Correlates of War Project ("CINC"), the Country-Code system from the Correlates of War Project ("COW"), the UCDP data on Conflict Onset ("UCDP"), the dataset onf trade flow from Kristen Gledistch ("Trade"), and the Dyadic Militarized Interstate Disputes (MID) Dataset from Professor Zeev Maoz. The arguments for this functions are in parentesis.
+`get_each_data`: Returns a basic IR dataset saved in one's global environment. The avaliable datasets now for download are:
 
--`get_monadyc_data`: Returns a monadyc data merging all the datasets above mentioned except for the MID data, using the the COW code as the skeleton of the data.
+- PolityIV ("PolityIV"), 
 
--`get_dyadic_data`: Returns a dyadic skeleton formed by painel country-year dataset from 1816 to 2016. It also merges this skeleton with the data from MID, Polity and CINC, using the COW code as the country ID. The function has two argument: "dyadic_dir" for direct dyads and "dyadic_indir" for indirect dyads between the countryes. 
+- The National Material Capabilities from the Correlates of War Project ("CINC"),
+
+- The Country-Code system from the Correlates of War Project ("COW")
+
+- The UCDP data on Conflict Onset ("UCDP")
+
+- The dataset onf trade flow from Professor Kristen Gledistch ("Trade")
+
+- The Dyadic Militarized Interstate Disputes Dataset from Professor Zeev Maoz ("MID"). 
+
+*The arguments for this function are the names in parentesis*
+
+`get_monadyc_data`: Returns a monadyc data merging all the datasets above mentioned except for the MID data, using the the COW code as the skeleton of the data.
+
+`get_dyadic_data`: Returns a dyadic skeleton formed by painel country-year dataset from 1816 to 2016. It also merges this skeleton with the data from MID, Polity and CINC, using the COW code as the country ID. The function has two argument: "dyadic_dir" for direct dyads and "dyadic_indir" for indirect dyads between the countryes. 
 
 ## Installation
 
