@@ -4,7 +4,7 @@
 #' units of analysis. This merged dataset is generating from a joining some fairly  used
 #' data in IR, such as PolityIV, Cinc, COW, UCDP onset and Trade flow. See the options for
 #' \code{get_each_data} to understand more about these datasets.
-#'
+#' @importFrom magrittr '%>%'
 #' @param \code{data} a character with one argument: \code{Monadic}.
 #' @usage get_monadic_data(data="monadic")
 #' @return returns a data.frame automatically saved in the global enviroment.
@@ -78,4 +78,7 @@ get_monadic_data <- function(data){
 
   }
 }
+
+
+
 
