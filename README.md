@@ -1,15 +1,15 @@
 # GetIRdata
-**GetIRdata**: Download and Merge data commonly used in the International Relations research 
+**GetIRdata**: Download and Merge data often used in the International Relations research 
 
-`GetIRdata` creates three functions with the goal of making the download and the merging process of datasets commonly used by the academic community in International Relation more automatic and less time-consuming. 
+`GetIRdata` has three functions with the goal of making the download and the merging process of datasets often employed by the academic community in International Relation more automatic and less time-consuming. 
 
-`GetIRdata` was created as a result of the graduate seminar course _New Methods for the study of Conflicts_ coordinate by Professores David Cunnigham and William Reed in the Department of Government and Politics at University of Maryland, College Park
+`GetIRdata` was created as a suggestion during the graduate seminar  _New Methods for the study of Conflicts_ coordinate by Professors David Cunnigham and William Reed in the Department of Government and Politics at University of Maryland, College Park
 
 ## Functions
 
-`GetIRdata` has three function:
+`GetIRdata` has three functions:
 
-`get_each_data`: Returns a basic IR dataset saved in one's global environment. The avaliable datasets now for download goes bellow, with *the arguments for the function in parentesis*.
+`get_each_data`: Returns a basic IR dataset saved in one's R global environment. The available datasets for download now are the following and the arguments to call them in the function are in parenthesis:
 
 - PolityIV ("PolityIV"), 
 
@@ -19,14 +19,14 @@
 
 - The UCDP data on Conflict Onset ("UCDP")
 
-- The dataset onf trade flow from Professor Kristen Gledistch ("Trade")
+- The dataset of trade flow from Professor Kristen Gleditsch ("Trade")
 
 - The Dyadic Militarized Interstate Disputes Dataset from Professor Zeev Maoz ("MID"). 
 
 
-`get_monadyc_data`: Returns a monadyc data merging all the datasets above mentioned except for the MID data, using the the COW code as the skeleton of the data.
+`get_monadyc_data`: Returns a monadic data merging all the datasets above mentioned except for the MID data, using the COW code as the skeleton of the data.
 
-`get_dyadic_data`: Returns a dyadic skeleton formed by painel country-year dataset from 1816 to 2016. It also merges this skeleton with the data from MID, Polity and CINC, using the COW code as the country ID. The function has two argument: "dyadic_dir" for direct dyads and "dyadic_indir" for indirect dyads between the countryes. 
+`get_dyadic_data`: Returns a dyadic skeleton formed by panel country-year dataset from 1816 to 2016. It also merges this skeleton with the data from MID, PolityIV and CINC, using the COW code as the country ID. The function has two arguments: "dyadic_dir" for direct dyads and "dyadic_indir" for indirect dyads between the countries. 
 
 ## Installation
 
@@ -53,13 +53,13 @@ devtools::install_github("TiagoVentura/GetIRdata")
 get_each_data("PolityIV)
 ```
 
-- **Saving a monadic country-year painel data**
+- **Saving a monadic country-year panel data**
 
 ```
 get_monadic_data("Monadic")
 ```
 
-- **Saving a dyadic direct country-year painel data**
+- **Saving a dyadic directed country-year data**
 
 ```
 get_dyadic_data("dyadic_dir")
@@ -67,7 +67,16 @@ get_dyadic_data("dyadic_dir")
 
 ## Contributions
 
-`GetIRdata` was developed by [Tiago Ventura](https://github.com/TiagoVentura) with contributtion of William Reed and David Cunnigham. Feedback and comments are most welcome.
+`GetIRdata` was developed by [Tiago Ventura](https://github.com/TiagoVentura) with contributions of William Reed and David Cunnigham. Feedback and comments are most welcome.
 
+## See Also 
 
+Above one can find the weblinks for each of the base datasets available to download through  `GetIRdata` functions
+
+- [PolityIV](http://privatewww.essex.ac.uk/~ksg/polity.html)
+- [COW Country Codes](http://www.correlatesofwar.org/data-sets/state-system-membership)
+- [CINC](http://www.correlatesofwar.org/data-sets/national-material-capabilities)
+- [UCDP ONSET](http://ucdp.uu.se/downloads/)
+- [Trade Flow](http://privatewww.essex.ac.uk/~ksg/exptradegdp.html)
+- [MID](http://vanity.dss.ucdavis.edu/~maoz/datasets.htm)
 
