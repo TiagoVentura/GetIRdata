@@ -1,13 +1,13 @@
 #' get_monadic_data
 #'
-#' \code{get_each_data} saves in your globalenvironment painel monadyc data using country-year as
-#' units of analysis. This merged dataset is generating from a joining some fairly  used
-#' data in IR, such as PolityIV, Cinc, COW, UCDP onset and Trade flow. See the options for
-#' \code{get_each_data} to understand more about these datasets.
+#' \code{get_each_data} saves in your globalenvironment a new data using country-year as
+#' units of analysis. The dataset is generated from joining other relevant IR datasets, and combaining
+#' them in a monafyc layout. The datasets combined are s PolityIV, Cinc, COW, UCDP onset and Trade flow. See the options for
+#' \code{get_each_data} to understand more about the raw datasets used.
 #' @importFrom magrittr '%>%'
 #' @param \code{data} a character with one argument: \code{Monadic}.
 #' @usage get_monadic_data(data="monadic")
-#' @return returns a data.frame automatically saved in the global enviroment.
+#' @return returns a dataset saved in Rstudio global enviroment.
 #' @examples
 #' get_monadic_data("monadic")
 #' @export

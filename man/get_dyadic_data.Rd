@@ -7,13 +7,14 @@
 get_dyadic_data(data="dyadic_dir")
 }
 \value{
-returns a data.frame automatically saved in the global enviroment.
+returns a data.frame in the global enviroment.
 }
 \description{
-\code{get_dyadic_data} Returns a dyadic skeleton formed by painel
-country-year dataset from 1816 to 2016. It also merges this skeleton with
-the data from MID, Polity and CINC, using the COW code as the country ID.
+\code{get_dyadic_data} Returns a panel data formed by Country-dyads from 1816 to 2016.
+Beyond the dyads, the dataset also combines variables from Polity, CINC, and MIDS.
+The dataset uses COW code as the country ID. Id values for the dyads are also provided.
+Finally, one can ask for direct or indirect dyads.
 }
 \examples{
-get_monadic_data("dyadic_dir")
+get_dyadic_data("dyadic_dir")
 }

@@ -7,7 +7,7 @@
 get_each_data(data="name of the data")
 }
 \arguments{
-\item{\code{data}}{The name of the data one want to download (character). For this function, this paramater
+\item{\code{data}}{The name of the data to be downloaded (character). For this function, this paramater
 assumes the following values.
 \itemize{
 \item \code{PolityIV}  Returns the Polity IV dataset
@@ -22,7 +22,7 @@ of War Project
 returns a data.frame automatically saved in the .global enviroment.
 }
 \description{
-\code{get_each_data} downloads a single IR data in your globalenvironment.
+\code{get_each_data} automatically saves an dataset in your globalenvironment. Using this function, one can easily download a variety of popular datasets in International Relations.
 }
 \details{
 PolityIV: Returns the Polity Data.

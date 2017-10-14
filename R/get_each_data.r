@@ -1,8 +1,9 @@
 #' get_each_data
 #'
-#' \code{get_each_data} downloads a single IR data in your globalenvironment.
+#' \code{get_each_data} automatically saves a dataset in your globalenvironment.
+#' Using this function, one can easily download a variety of popular datasets in International Relations.
 #'
-#' @param \code{data} The name of the data one want to download (character). For this function, this paramater
+#' @param \code{data} The name of the data to be downloaded (character). For this function, this paramater
 #' assumes the following values.
 #' \itemize{
 #' \item \code{PolityIV}  Returns the Polity IV dataset

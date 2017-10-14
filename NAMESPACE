@@ -3,3 +3,4 @@
 export(get_dyadic_data)
 export(get_each_data)
 export(get_monadic_data)
+importFrom(magrittr,'%>%')

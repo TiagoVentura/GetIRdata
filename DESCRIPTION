@@ -5,8 +5,8 @@ Authors@R: person("Tiago", "Ventura", email = "venturat@umd.edu", role = c("aut"
 Description: Extract to R global environment datasets commonly used in IR
 Depends: R (>= 3.3.2), 
 Imports:
-    dplyr, 
-    magrittr, 
+    dplyr (>= 0.5.0), 
+    magrittr (>= 1.5),
     tidyr
 License: MIT + file LICENSE
 LazyData: true
