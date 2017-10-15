@@ -53,17 +53,25 @@ devtools::install_github("TiagoVentura/GetIRdata")
 get_each_data("PolityIV)
 ```
 
-- **Saving a monadic country-year panel data**
+- **Saving a monadic panel data**
 
 ```
 get_monadic_data("Monadic")
 ```
 
-- **Saving a dyadic directed country-year data**
+- **Saving a panel data with direct dyads**
 
 ```
 get_dyadic_data("dyadic_dir")
 ```
+- **Saving a panel data with indirect dyads**
+
+```
+get_dyadic_data("dyadic_indir")
+
+```
+
+
 
 ## Contributions
 
