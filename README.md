@@ -41,6 +41,7 @@ Then you need to load devtools and install GetIRdata from its [GitHub repository
 ```
 library(devtools)
 devtools::install_github("TiagoVentura/GetIRdata")
+library("GetIRdata")
 ```
 
 ## Usage
