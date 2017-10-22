@@ -3,7 +3,7 @@
 
 `GetIRdata` has three functions with the goal of making the download and the merging process of datasets often employed by the academic community in International Relation more automatic and less time-consuming. 
 
-`GetIRdata` was created as a suggestion during the graduate seminar  _New Methods for the study of Conflicts_ coordinate by Professors David Cunnigham and William Reed in the Department of Government and Politics at University of Maryland, College Park
+`GetIRdata` was created as a suggestion during the graduate seminar  _New Methods for the study of Conflicts_ coordinated by Professors David Cunnigham and William Reed in the Department of Government and Politics at University of Maryland, College Park
 
 ## Functions
 
@@ -46,7 +46,7 @@ library("GetIRdata")
 
 ## Usage
 
-`GetIRdata` is quite simple to use. The package contains only three functions, with each of them with few arguments. The logic for the three function is the same: one should add a character argument to specify which dataset, or type of merge data, one wants to save in the .globalenvironment. 
+`GetIRdata` is quite simple to use. The package contains only three functions, each of them with few arguments. The logic for the three functions is the same: one should add a character argument to specify which dataset, or type of merge data, one wants to save in the R .globalenvironment. 
 
 - **Saving the PolityIV data.**
 
@@ -76,11 +76,11 @@ get_dyadic_data("dyadic_indir")
 
 ## Contributions
 
-`GetIRdata` was developed by [Tiago Ventura](https://github.com/TiagoVentura) with contributions of William Reed and David Cunnigham. Feedback and comments are most welcome.
+`GetIRdata` was developed by [Tiago Ventura](https://github.com/TiagoVentura) with contributions of William Reed and David Cunnigham. Feedbacks and comments are most welcome.
 
 ## See Also 
 
-Above one can find the weblinks for each of the base datasets available to download through  `GetIRdata` functions
+In the links below, one can find the weblinks for each of the datasets available to download through  `GetIRdata`. More datasets will be added soon. 
 
 - [PolityIV](http://privatewww.essex.ac.uk/~ksg/polity.html)
 - [COW Country Codes](http://www.correlatesofwar.org/data-sets/state-system-membership)
