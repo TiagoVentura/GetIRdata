@@ -19,7 +19,7 @@
 
 - The UCDP data on Conflict Onset ("UCDP")
 
-- The dataset of trade flow from Professor Kristen Gleditsch ("Trade")
+- The dataset of trade flow from Professor Kristian Gleditsch ("Trade")
 
 - The Dyadic Militarized Interstate Disputes Dataset from Professor Zeev Maoz ("MID"). 
 
