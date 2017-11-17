@@ -51,7 +51,7 @@ library("GetIRdata")
 - **Saving the PolityIV data.**
 
 ```
-get_each_data("PolityIV)
+get_each_data("PolityIV")
 ```
 
 - **Saving a monadic panel data**
